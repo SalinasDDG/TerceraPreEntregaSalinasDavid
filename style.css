@@ -1,0 +1,65 @@
+/*rgb(37, 145, 145)*/
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#verLogin{
+    display: none;
+}
+
+#cardTrabajadores{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+div.cardsCalendario{
+    display: flex;
+    flex-direction: row;
+}
+
+div.card{
+   margin: 5px;
+   border-color:  white ;
+   border-width: 1px;
+   background-color:rgb(11, 15, 11);
+   color: white;
+
+}
+
+
+
+ul.list-group-flush li{
+    background-color: rgb(11, 15, 11);
+    color: white;
+    
+    }
+
+
+div.calendario{padding: 10px;}
+ol.dias{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+    text-align: start;
+}
+
+li.diaNombre{
+    background-color: green;
+    text-align: center;
+}
+
+div.inputsCalend{
+    display: flex;
+    flex-direction: column;
+}
+
+input.imputCalend{
+    width: 250px;
+}
+
